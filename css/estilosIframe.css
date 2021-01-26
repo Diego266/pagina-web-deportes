@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*ESTILOS GLOBALES*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+
+/*TABLA CON DATOS*/
+
+.datos {
+    height: 666px;
+    /* background: #F2D5BB;*/
+}

@@ -1,0 +1,98 @@
+    /*FUENTE ROBOTO*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    /* ESTILOS GLOBALES*/
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: Roboto;
+    }
+    /*BARRA DE NAVEGACION*/
+    
+    nav {
+        background: #010440;
+    }
+    /*IMAGEN NOT FOUND 404*/
+    
+    img {
+        margin: 10px 0px 0px 0px;
+        width: 150px;
+        height: 45px;
+        margin-left: 20px;
+    }
+    /*NOMBRE Y CARGO*/
+    
+    li {
+        color: #F2D022;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    /*CERRAR SESION*/
+    
+    i {
+        color: #F2D022;
+        margin-left: 10px;
+        float: right;
+    }
+    /*CONTENEDOR CATEGORIA*/
+    
+    .categoria {
+        height: 666px;
+        background: #733D29;
+    }
+    /*-------------------DESPLEGABLE CATEGORIA-------------*/
+    /*INFORMACION DE LOS ATLETAS*/
+    
+    .informacion li {
+        color: #F2D022;
+        margin-top: 150px;
+        font-size: 30px;
+        margin-left: 0pc;
+    }
+    /*ICONOS DE INFORMACION Y CATEGORIA*/
+    
+    .categoria i {
+        float: left;
+        font-size: 50px;
+        margin-left: 0px;
+        color: #010440;
+    }
+    /*DROPDOWN CATEGORIA*/
+    
+    .dropdown-container {
+        font-size: 30px;
+        position: relative;
+        color: #F2D5BB;
+    }
+    /*ESCONDER DROPDOWM*/
+    
+    .dropdown-container ul {
+        position: absolute;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    /*ESTILOS ORO - PLATA - BRONCE*/
+    
+    .dropdown-container ul li {
+        float: left;
+        margin-top: 10px;
+    }
+    /*APARECER DROPDOWN CON EL MOUSE*/
+    
+    .dropdown-container:hover ul {
+        max-height: 200px;
+    }
+    
+    .dropdown-container i img {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-left: 60PX;
+    }
+    /*TITULO INFORMACIONM DE LOS ATLETAS*/
+    
+    iframe {
+        width: 100%;
+        height: 666px;
+    }

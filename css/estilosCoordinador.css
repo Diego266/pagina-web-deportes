@@ -1,0 +1,39 @@
+/*ESTILOS GLOBALES*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+nav {
+    background: #6926d6;
+}
+
+
+/*IMAGEN NOT FOUND 404*/
+
+img {
+    margin: 10px 0px 0px 0px;
+    width: 150px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+body {
+    background-image: url(../img/notFound.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+li {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+i {
+    margin-left: 10px;
+    float: right;
+}
