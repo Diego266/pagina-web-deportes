@@ -1,0 +1,9 @@
+---------------------USUARIOS----------------------
+
+ADMINISTRADOR:
+USER: administrador 
+PASSWORD: administrador123
+
+COORDINADOR:
+USER: coordinador
+PASSWORD: coordinador123
