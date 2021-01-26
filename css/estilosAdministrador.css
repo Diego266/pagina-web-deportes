@@ -74,16 +74,6 @@
     }
     /*ESTILOS ORO - PLATA - BRONCE*/
     
-    .dropdown-container ul button {
-        background: none;
-        border: none;
-        color: #F2D022;
-    }
-    
-    .dropdown-container ul button:hover {
-        background: #695a10;
-    }
-    
     .dropdown-container ul li {
         float: left;
         margin-top: 10px;
@@ -144,4 +134,19 @@
     .card-content {
         margin-top: 0px;
         justify-content: center;
+    }
+    /*ESTILOS MODAL*/
+    
+    .estilosModal {
+        background: #9b796c;
+        width: 90px;
+    }
+    
+    .estilosModal:hover {
+        background: #3f251a;
+    }
+    
+    h4,
+    p {
+        color: black;
     }

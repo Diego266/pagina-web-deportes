@@ -29,24 +29,7 @@
 
 <body>
 
-    <!-- CONTENEDOR MODAL MEDALLA Y NUMERO DE MEDALLAS -->
-    <!-- <div class="contenedor-modal">
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="../img/bronce.png">
-                        <span class="card-title">ORO</span>
-                    </div>
-                    <div class="card-content">
-                        <h1>TOTAL MEDALLAS: #numero </h1>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    </div> -->
     <!-- APARTADO DE INFORMACION -->
     <div class="row ">
         <div class="col s2 categoria ">
@@ -66,19 +49,62 @@
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/oro.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583344.svg?token=exp=1611647671~hmac=ee91ff0a5c3c4eaca6864cb28f8042a4 "></i>
-                                <li><button id="btnOro">Oro</button></li>
+                                <li>
+                                    <!-- Modal Trigger -->
+                                    <a class="waves-effect waves-light btn modal-trigger estilosModal" href="#modal1">Oro</a>
+
+                                    <!-- Modal Structure -->
+                                    <div id="modal1" class="modal">
+                                        <div class="modal-content">
+                                            <h4>Medallas de oro</h4>
+                                            <p>#TOTAL</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/plata.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583319.svg?token=exp=1611647652~hmac=5f7dcc7f85822503393141a8e4d1386e "></i>
-                                <li><button id="btnPlata">Plata</button></li>
+                                <li>
+                                    <!-- Modal Trigger -->
+                                    <a class="waves-effect waves-light btn modal-trigger estilosModal" href="#modal2">Plata</a>
+
+                                    <!-- Modal Structure -->
+                                    <div id="modal2" class="modal">
+                                        <div class="modal-content">
+                                            <h4>Medallas de plata</h4>
+                                            <p id="totalMedallas">#TOTAL</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/bronce.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583434.svg?token=exp=1611647616~hmac=af05300e6dd902ce999ba20a819c46bb "></i>
-                                <li><button id="btnBronce">Bronce</button></li>
+                                <li>
+                                    <!-- Modal Trigger -->
+                                    <a class="waves-effect waves-light btn modal-trigger estilosModal" href="#modal3">Bronce</a>
+
+                                    <!-- Modal Structure -->
+                                    <div id="modal3" class="modal">
+                                        <div class="modal-content">
+                                            <h4>Medallas de bronce</h4>
+
+                                            <p>#TOTAL</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Salir</a>
+                                        </div>
+                                    </div>
+                                </li>
                             </div>
                         </div>
                     </ul>

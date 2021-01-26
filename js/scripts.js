@@ -1,3 +1,10 @@
+// MODAL
+
+$(document).ready(function() {
+    $('.modal').modal();
+});
+
+// DATA TABLE 
 $(document).ready(function() {
     $('#table_id').DataTable();
 });
@@ -14,7 +21,7 @@ fetch(
     let element = document.getElementById('tableData')
     element.innerHTML = ''
     for (let valor of json) {
-        element.innerHTML +=
+        element.innerHTML =
             `<tr>
             <td>${valor.athlete}</td>
             <td>${valor.age}</td>
