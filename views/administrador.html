@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/estilosAdministrador.css">
     <title>Document</title>
 </head>
+
+<!-- BARRA DE NAVEGACION -->
 <nav>
     <div class="nav-wrapper">
         <img src="../img/logo.png" alt=" https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.logodownload.org%2Fjuegos-olimpicos-olimpiada-logo%2F&psig=AOvVaw1b43ksUIKZlhWfF_tZ_5e6&ust=1611724092841000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKj5k6LquO4CFQAAAAAdAAAAABAJ ">
@@ -23,8 +25,29 @@
         </ul>
     </div>
 </nav>
+<!-- CUERPO -->
 
 <body>
+
+    <!-- CONTENEDOR MODAL MEDALLA Y NUMERO DE MEDALLAS -->
+    <!-- <div class="contenedor-modal">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="../img/bronce.png">
+                        <span class="card-title">ORO</span>
+                    </div>
+                    <div class="card-content">
+                        <h1>TOTAL MEDALLAS: #numero </h1>
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+    <!-- APARTADO DE INFORMACION -->
     <div class="row ">
         <div class="col s2 categoria ">
             <div class="row ">
@@ -43,25 +66,27 @@
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/oro.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583344.svg?token=exp=1611647671~hmac=ee91ff0a5c3c4eaca6864cb28f8042a4 "></i>
-                                <li>Oro</li>
+                                <li><button id="btnOro">Oro</button></li>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/plata.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583319.svg?token=exp=1611647652~hmac=5f7dcc7f85822503393141a8e4d1386e "></i>
-                                <li>Plata</li>
+                                <li><button id="btnPlata">Plata</button></li>
                             </div>
                         </div>
                         <div class="row ">
                             <div class="col s12 ">
                                 <i><img src="../img/bronce.png " alt="https://www.flaticon.es/svg/vstatic/svg/2583/2583434.svg?token=exp=1611647616~hmac=af05300e6dd902ce999ba20a819c46bb "></i>
-                                <li>Bronce</li>
+                                <li><button id="btnBronce">Bronce</button></li>
                             </div>
                         </div>
                     </ul>
                 </div>
             </div>
         </div>
+
+        <!-- APARTADO DE LA TABLA -->
         <div class="col s10 datos ">
             <iframe src="iFrameTabla.html" frameborder="0"></iframe>
         </div>
